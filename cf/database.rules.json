@@ -1,24 +1,24 @@
 {
   "rules": {
     "log": {
-      ".read": "auth != null && (auth.uid == '4ECy9wybFrh3PFJnywu0RcgXrKG2' || auth.uid == '845am8oH7mZVqAeKuEQVr9pWusO2' || auth.uid == 'LwEVWz3GAJbemU6n2bFz9WSbqVK2')",
-      ".write": "auth != null && (auth.uid == '4ECy9wybFrh3PFJnywu0RcgXrKG2' || auth.uid == '845am8oH7mZVqAeKuEQVr9pWusO2' || auth.uid == 'LwEVWz3GAJbemU6n2bFz9WSbqVK2')",
+      ".read": "auth != null && (auth.uid == '8Xfn6kc6aWTFIOkLzihdGuCh2d02')",
+      ".write": "auth != null && (auth.uid == '8Xfn6kc6aWTFIOkLzihdGuCh2d02')"
     },
     "globals": {
-      ".read": "auth != null && (auth.uid == '4ECy9wybFrh3PFJnywu0RcgXrKG2' || auth.uid == '845am8oH7mZVqAeKuEQVr9pWusO2' || auth.uid == 'LwEVWz3GAJbemU6n2bFz9WSbqVK2')",
-      ".write": "auth != null && (auth.uid == '4ECy9wybFrh3PFJnywu0RcgXrKG2' || auth.uid == '845am8oH7mZVqAeKuEQVr9pWusO2' || auth.uid == 'LwEVWz3GAJbemU6n2bFz9WSbqVK2')",
+      ".read": "auth != null && (auth.uid == '8Xfn6kc6aWTFIOkLzihdGuCh2d02')",
+      ".write": "auth != null && (auth.uid == '8Xfn6kc6aWTFIOkLzihdGuCh2d02')"
     },
     "strips": {
       ".read": true,
-      ".write": "auth != null && (auth.uid == '4ECy9wybFrh3PFJnywu0RcgXrKG2' || auth.uid == '845am8oH7mZVqAeKuEQVr9pWusO2' || auth.uid == 'LwEVWz3GAJbemU6n2bFz9WSbqVK2')",  
+      ".write": "auth != null && (auth.uid == '8Xfn6kc6aWTFIOkLzihdGuCh2d02')"
     },
     "firmware": {
       ".read": true,
-      ".write": "auth != null && (auth.uid == '4ECy9wybFrh3PFJnywu0RcgXrKG2' || auth.uid == '845am8oH7mZVqAeKuEQVr9pWusO2' || auth.uid == 'LwEVWz3GAJbemU6n2bFz9WSbqVK2')",  
+      ".write": "auth != null && (auth.uid == '8Xfn6kc6aWTFIOkLzihdGuCh2d02')"
     },
     "checkin": {
-      ".read": "auth != null && (auth.uid == '4ECy9wybFrh3PFJnywu0RcgXrKG2' || auth.uid == '845am8oH7mZVqAeKuEQVr9pWusO2' || auth.uid == 'LwEVWz3GAJbemU6n2bFz9WSbqVK2')",
-      ".write": true,
+      ".read": "auth != null && (auth.uid == '8Xfn6kc6aWTFIOkLzihdGuCh2d02')",
+      ".write": true
     }
-  },
+  }
 }
